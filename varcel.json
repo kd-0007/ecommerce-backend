@@ -1,0 +1,6 @@
+{
+    "version":2,
+    "name" : "ecommerce",
+    "builds" : [{"src" :"server.js" , "use": "varcel/node"}],
+    "routes" : [{"src" : "/(.*)" , "dest" : "/server.js"}]
+} 
